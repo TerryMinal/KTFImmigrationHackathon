@@ -5,45 +5,85 @@
     
 
     <style>
-    a:link, a:visited {
-        background-color: white;
-        border: none;
-        color: #4d4d4d;
-        padding: 13px 22px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 18px;
-        float: right;
-        font-family: Arial;
-    }
+      #one {
+      background-color: #e6b800;
+      width: 85px; 
+      position: absolute;
+      top: 15.5%;
+      left: 0.6%;
+      text-align: center; 
+      }
 
-    a:hover {
-        background-color: #f2f2f2;
-    }
+      #one:hover {
+      background-color:#004080;
+      }
 
-    div.header {
-        color: #4d4d4d;
-        font-weight: bold;
-        font-family: Arial;
-        font-size: 28px;
-        position: absolute;
-        top:13px;
-        left: 15px;
-    }
+      #two {
+      background-color: #e6b800;
+      position: absolute;
+      top: 20%;
+      width: 85px;
+      left: 0.6%;
+      text-align: center; 
+      }
 
-    div.yellowLine {
-        background: #ffcc00;
-        width: 100%;
-        height: 7px;
-        float: left;
-    }
+      #two:hover {
+      background-color:#004080;
+      }
+
+      #three {
+      background-color: #e6b800;
+      position: absolute;
+      top: 24.8%;
+      width: 85px;
+      left: 0.6%;
+      text-align: center; 
+      }
+      
+      #three:hover {
+      background-color:#004080;
+      }
+      
+      a:link, a:visited {
+      background-color: white;
+      border: none;
+      color: #4d4d4d;
+      padding: 13px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      float: right;
+      font-family: Arial;
+      }
+
+      a:hover {
+      background-color: #f2f2f2;
+      }
+
+      div.header {
+      color: #4d4d4d;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 28px;
+      position: absolute;
+      top:13px;
+      left: 15px;
+      }
+
+      div.yellowLine {
+      background: #ffcc00;
+      width: 100%;
+      height: 7px;
+      float: left;
+      }
 
       table {
       display: table;
       border-collapse: separate;
       border-spacing: 20px;
       align: center;
+      font-weight:bold;
       }
 
       a:hover {
@@ -53,88 +93,128 @@
       a:active {
       color: #b3ffff
       }
-      
+
+      #header {
+      color:"grey";
+      font-family: "helvetica";
+      font-size = 100;
+      position: absolute;
+      top: 17%;
+      left: 15%;
+      }
+
+       #header2{
+      position: absolute;
+      top: 7%;
+      font-size:23;
+      font-family: helvetica;
+      }
       
     </style>
 
   </head>
   
   <body link = #000000>
-  <div class="header">
-        PenPal.
+    <h2 id = "header2"> Language Resources</h2>
+     <a href="languageClasses.html" id = "one">  Classes</a><br>
+    <a href="languageBooks.html" id = "two">Books</a><br>
+    <a href="languageMovies.html" id = "three"> Movies</a><br>
+    
+    <div class="header">
+      PenPal.
     </div>
     <a href="blog.html">Blog</a>
     <a href="chat.html">Chat</a>
     <a href="resources.html">Resources</a>
     <div class="yellowLine"></div>
-    <div class = "top 10 movies"> 
-      <h1> <center> <font color = "grey" face = "Impact" size = "45"> <a href = "http://www.fluentu.com/blog/english/learn-english-movies-films-modern-american-classics/"> TOP 10 MOVIES FOR ENGLISH BEGINNERS </a>  </font> </center> </h1>
-  <table align = center>
-    <tr>
-      <td height = 200; valign = vertical; align = center;> 
-	<p> 1. “The Social Network” (2010) </p> 
-	<p> Starring: Jesse Eisenberg, Justin Timberlake, Andrew Garfield. </p> 
-      </td>
+    <div class = "top 10 movies"> <br><br><br><br><br><br><br><br><br><br>
+      <h1 id="header"> <center> <font color = "grey" face = "helvetica" size = "45">  TOP 10 MOVIES FOR ENGLISH BEGINNERS </font> </center> </h1>
+      <table align = center>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;> 
+	    <p> 1. “The Social Network” (2010) </p> 
+	    <p> Starring: Jesse Eisenberg, Justin Timberlake, Andrew Garfield. </p> 
+	
+	    <img src = "social.jpg" style="width:300px;height:400px;">
+	  </td>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p> 2. “The Hangover” (2009) </p> 
-	<p> Starring: Ed Helms, Bradley Cooper and Zach Galifiankis. </p>
-      </td>
-    </tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p> 2. “The Hangover” (2009) </p> 
+	    <p> Starring: Ed Helms, Bradley Cooper and Zach Galifiankis. </p>
+	
+	    <img src = "hangover.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>	
-	<p>3. “The Hunger Games” (2012) </p>
-	<p>Starring: Jennifer Lawrence and Liam Hemsworth </p>
-      </td>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>	
+	    <p>3. “The Hunger Games” (2012) </p>
+	    <p>Starring: Jennifer Lawrence and Liam Hemsworth </p>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p>4. “Toy Story” (1995) </p>
-	<p>Starring: Tim Allen and Tom Hanks </p>
-      </td>
-    </tr>
+	    <img src = "hunger.jpg" style="width:300px;height:400px;">
+	  </td>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
-	<p>5. “Cast Away” (2000) </p>
-	<p>Starring: Tom Hanks, Helen Hunt and Chris North. </p>
-      </td>
-      
-      <td height = 200; valign = vertical; align = center;>
-	<p>6. “(500) Days of Summer” (2009) </p>
-	<p>Starring: Zooey Deschanel and Joseph Gordon-Levitt. </p>
-      </td>
-    </tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>4. “Toy Story” (1995) </p>
+	    <p>Starring: Tim Allen and Tom Hanks </p>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
-	<p>7. “Twilight” (2008) </p>
-	<p>Starring: Kristen Stewart, Robert Pattinson and Taylor Lautner. </p>
-      </td>
+	    <img src = "toys.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
 
-      <td height = 200; valign = vertical; align = center;>
- 	<p>8. “The Break-up” (2006) </p>
-	<p>Starring: Jennifer Aniston and Vince Vaughn. </p>
-      </td>
-    </tr>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>5. “Cast Away” (2000) </p>
+	    <p>Starring: Tom Hanks, Helen Hunt and Chris North. </p>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
- 	<p> 9. Monsters Inc. (2001) </p>
-	<p> Starring: John Goodman, Billy Crystal. </p> 
-      </td>
+	    <img src = "cast.jpg" style="width:300px;height:400px;">
+	  </td>
+	  
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>6. “(500) Days of Summer” (2009) </p>
+	    <p>Starring: Zooey Deschanel and Joseph Gordon-Levitt. </p>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p>10. Forrest Gump (1994) </p>
-	<p>Starring: Tom Hanks, Robin Wright, Gary Sinise and Sally Field. </p>
-      </td>
-      
-    </tr>
-  </table>
+	    <img src = "500.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>7. “Twilight” (2008) </p>
+	    <p>Starring: Kristen Stewart, Robert Pattinson and Taylor Lautner. </p>
+
+	    <img src = "twilight.jpg" style="width:300px;height:400px;">
+	  </td>
+
+	  <td height = 200; valign = vertical; align = center;>
+ 	    <p>8. “The Break-up” (2006) </p>
+	    <p>Starring: Jennifer Aniston and Vince Vaughn. </p>
+
+	    <img src = "breakup.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+ 	    <p> 9. Monsters Inc. (2001) </p>
+	    <p> Starring: John Goodman, Billy Crystal. </p> 
+
+	    <img src = "monsters.jpg" style="width:300px;height:400px;">
+	  </td>
+
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>10. Forrest Gump (1994) </p>
+	    <p>Starring: Tom Hanks, Robin Wright, Gary Sinise and Sally Field. </p>
+
+	    <img src = "forest.jpg" style="width:300px;height:400px;">
+	  </td>
+	  
+	</tr>
+      </table>
 
 
-</div> 
+    </div> 
 
-</body>
+  </body>
 </html> 
-  
+
