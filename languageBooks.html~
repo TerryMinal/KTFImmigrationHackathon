@@ -1,0 +1,93 @@
+<html>
+  
+  <head>
+    <title> Language Resources </title>
+    
+
+    <style>
+      table {
+      display: table;
+      border-collapse: separate;
+      border-spacing: 20px;
+      align: center;
+      }
+
+      table#books {
+      margin-left: 300px;
+      }
+
+      a:hover {
+      color: #99ccff
+      }
+
+      a:active {
+      color: #b3ffff
+      }
+      
+      
+    </style>
+
+  </head>
+  
+  <body link = #000000>
+    <div class = "top 10 books"> 
+      <h1> <center> <font color = "grey" face = "Impact" size = "45"> <a href = "http://www.fluentu.com/blog/english/easy-simple-english-books-read-beginners/"> TOP 10 BOOKS FOR ENGLISH BEGINNERS </a>  </font> </center> </h1>
+  <table id = "books">
+    <tr>
+      <td height = 200; valign = vertical; align = center;> 
+	<p> 1. Charlotte’s Web – E.B. White </p> 
+      </td>
+
+      <td height = 200; valign = vertical; align = center;>
+	<p>2. Mieko and the Fifth Treasure – Eleanor Coerr </p> 
+      </td>
+    </tr>
+
+    <tr>
+      <td height = 200; valign = vertical; align = center;>	
+	<p>3. The Outsiders – S.E. Hinton </p>
+      </td>
+
+      <td height = 200; valign = vertical; align = center;>
+	<p>4. The House On Mango Street – Sandra Cisneros </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td height = 200; valign = vertical; align = center;>
+	<p>5. Thirteen Reasons Why – Jay Asher </p>
+      </td>
+      
+      <td height = 200; valign = vertical; align = center;>
+	<p>6. Peter Pan – J.M. Barrie) </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td height = 200; valign = vertical; align = center;>
+	<p>7. The Old Man and the Sea – Ernest Hemmingway </p>
+      </td>
+
+      <td height = 200; valign = vertical; align = center;>
+ 	<p>8. The Giver – Lois Lowry </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td height = 200; valign = vertical; align = center;>
+ 	<p> 9. Number the Stars – Lois Lowry </p>
+      </td>
+
+      <td height = 200; valign = vertical; align = center;>
+	<p>10. A Wrinkle In Time – Madeline L’engle </p>
+      </td>
+      
+    </tr>
+  </table>
+
+
+</div> 
+
+</body>
+</html> 
+  

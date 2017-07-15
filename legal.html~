@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Legal Resources </title>
+  
+
+  <style>
+    table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px;
+    align: center;
+    }
+
+    table#t02 {
+    margin-left: 180px;
+    }
+
+    table#t03 {
+    margin-left: 180px;
+    }
+
+    table#t04 {
+    margin-left:450px;
+    }
+
+    table#t05{
+    margin-left:450px;
+    }
+
+    table#t06 {
+    margin-left: 180px;
+    }
+
+    table#t07 {
+    margin-left:450px;
+    }
+
+    a:hover {
+    color: #99ccff
+    }
+
+    a:active {
+    color: #b3ffff
+    }
+    
+    
+  </style>
+
+  </head>
+
+
+  <body link = #000000> 
+    <div class = "finding legal services"> 
+      <h1> <center> <font color = "grey" face = "Impact" size = "45"> FINDING LEGAL SERVICES </font> </center> </h1>
+
+      <table>
+	<tr valign = "bottom">
+	  <th>  <font size = "20"; face="helvetica"; color = "#1f3d7a";> Immigration Advocates </font> </th>
+	  <th> <font size = "20"; face="helvetica"; color = "#1f3d7a";> Immi </font> </th>
+	  <th> <font size = "10"; face="helvetica"; color = "#1f3d7a";> American Immigration Lawyers Association </font> </th>
+	</tr>
+
+	<tr>
+	  <td width = 500; height = 250; valign="top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica"> 
+	      <p> <a href = "https://www.immigrationadvocates.org/nonprofit/legaldirectory/"> Visit Immigration Advocates </a> </p>
+	       <br><br>
+	    <p>Search for immigration legal services provided by state, county, or detention facility. Only nonprofit organizations that provide free or low-cost immigration legal services are included in this directory. </p>
+
+	  </td>
+
+	  <td width = 500; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica">
+	      <p> <a href = "https://www.immi.org/info/FindLegalHelp"> Visit Immi </a> </p>
+	       <br><br>
+	    <p> Immi works with legal aid organizations across the U.S. to connect immigrants to legal help. </p>
+	    </font>
+	  </td>
+
+	  <td width = 500; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica">
+	      <p> <a href = "http://www.ailalawyer.org/"> Visit American Immigration Lawyers Assocation </a> </p>
+	       <br><br>
+	    <p> Find an immigration attorney near you using this web tool. </p>
+	  </font>
+	  </td>
+	</tr>
+      </table>
+
+      <br>
+      
+      <table id = "t02">
+	<tr>
+	  <th width = 500>  <font size = "20"; face="helvetica"; color = "#1f3d7a"> Immigration Advocates: Immigration Law Help Web Tool </font> </th>
+	  <th width = 500>  <font size = "20"; face="helvetica"; color = "#1f3d7a";> iAmerica: Legal Services Search Tool </font> </th>
+	</tr>
+
+	<tr>
+	  <td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica">
+	      <p> <a href = "https://www.immigrationlawhelp.org/"> Visit Immigration Advocates Web Tool </a> </p>
+	       <br><br>
+	    <p>  This website helps low-income immigrants find legal assistance around the country. </p>
+	    </font>
+	  </td>
+
+	  <td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica">
+	      <p> <a href = "http://iamerica.org/find-legal-help/"> Visit iAmerica  </a></p>
+	       <br><br>
+	    <p> Enter your zip code to find the most convenient legal service provider for you. Spanish available here (http://iamerica.org/es/ayuda-legal) </p>
+	  </td>
+	  </font> 
+	</tr>
+      </table>
+    
+    </div>
+     <br><br>
+    
+
+    <div class = "numbers"> 
+     <h1> <center> <font size = 45; face = "impact"; color = "grey"> Numbers You Can Call </font> </center> </h1>
+
+     <table id = "t03">
+       <tr>
+	 <th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> NY Immigration Hotline </font> </th>
+	 <th width = 500>  <font size = "20"; face="helvetica"; color = "#1f3d7a";> National Korean American Service & Education Consortium </font></th>
+	 </font>
+       </tr>
+
+       <tr>
+	 <td width = 400; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	   <font face = "helvetica">
+	     <p> Number: 1-844-955-3425 </p>
+	      <br><br>
+	   <p> This 24 hour hotline is staffed by Legal Aid Society's Immigration Law Unit to help people to obtain legal advice on raids and other ICE enforcement in New York City. </p>
+	   </font>
+	 </td>
+
+	 <td width = 400; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	   <font face = "helvetica">
+	     <p> Number: 1-844-500-3222 </p>
+	     <br><br>
+	     <p> NAKASEC operates a national 24/hr Korean & English immigration hotline. Callers can receive general tips (what are my rights) or use the hotline in a crisis should someone encounter ICE. The hotline attendants can also connect individuals with a licensed immigration attorney and in some cases a mental health worker. </p>
+	   </font>
+	 </td>
+       </tr>
+     </table>
+     
+
+    </div>
+    <br><br>
+
+    <div class = "knowYourRights"> 
+      <h1> <center> <font size = 45; face = "impact"; color = "grey">  When stopped by the police, immigration agents, or the FBI </font> </center> </h1>
+														
+      <table id = "t04">
+	<tr>
+	  <th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> American Civil Liberties Union </font></th>
+	</tr>
+
+	<tr>
+	  <td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f5>
+	    <font face = "helvetica">
+	      <p> <a href = "https://www.aclu.org/know-your-rights/what-do-if-youre-stopped-police-immigration-agents-or-fbi"> Know Your Rights </a> </p>
+	       <br><br>
+	    <p> We rely on the police to keep us safe and treat us all fairly, regardless of race, ethnicity, national origin or religion. This card provides tips for interacting with police and understanding your rights. </p>
+	    </font>
+	  </td>
+	</tr>
+      </table>
+      
+
+    </div> 
+    <br><br>
+
+    <div class = "knowYourRightsLawEnforcement"> 
+      <h1> <center> <font size = 45; face = "impact"; color = "grey"> When encountering law enforcement </font> </center> </h1>
+
+      <table id = "t05">
+	<tr>
+	  <th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> American Civil Liberties Union </font>
+	  </th>
+	</tr>
+
+	<tr>
+	  <td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f>
+	    <font face = "helvetica">
+	      <p> <a href = "https://www.aclu.org/know-your-rights/what-do-when-encountering-law-enforcement-airports-and-other-ports-entry-us"> Know Your Rights: Law Enforcement </a> </p>
+	      <br><br>
+	    <p> This page tells you about your basic rights. It is not a substitute for legal advice. You should contact an attorney if you have been arrested or believe that your rights have been violated. </p>
+	    </font>
+	  </td>
+	</tr>
+      </table>
+
+      
+    </div>
+    <br><br>
+
+    <div class = "citizenship"> 
+    <h1> <center> <font size = 45; face = "impact"; color = "grey"> Citizenship </font> </center></h1>
+    <table id = "t06">
+      <tr>
+	<th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> Road to Status </font> </th>
+	<th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> CUNY Citizenship Now! </font> </th>
+      </tr>
+
+      <tr>
+	<td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f>
+	   <font face = "helvetica">
+	  <p> <a href = "https://www.roadtostatus.com/why-rts/"> Road to Status </a> </p>
+	  <br><br>	  
+	  <p> Road to Status is a software and services company that offers online tools and access to legal services through our network partner law firms. You can quickly check your eligibility for immigration benefits, prepare your paperwork, and/or schedule an initial consultation or paperwork review with a licensed network partner attorney. </p>
+	   </font>
+	</td>
+	
+	<td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f>
+	   <font face = "helvetica">
+	  <p> <a href = "http://www1.cuny.edu/sites/citizenship-now/"> CUNY Citizenship Now </a> </p>
+	  <br><br>
+	  <p> CUNY Citizenship Now! provides free, high quality, and confidential immigration law services to help individuals and families on their path to U.S. citizenship. </p>
+	  </font>
+	</td>
+      </tr>
+    </table>
+    </div>
+    
+    <br><br>
+
+    <div class = "learnMore">
+       <h1> <center> <font size = 45; face = "impact"; color = "grey"> Learn More At: </font> </center></h1>
+      <table id = t07>
+	<tr>
+	  <th width = 500>  <font size = "20"; face="helvetica"; color = "#1f3d7a";> <a href = "https://www.informedimmigrant.com/resources/"> Informed Immigrant </a> </font> </th>
+	</tr>
+
+      </table>
+    </div>
+
+    
+
+
+
+    
+    
+
+
+
+  </body>
+</html>
+
+
