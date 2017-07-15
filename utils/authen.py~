@@ -5,7 +5,7 @@ from os import path, remove
 from pymongo import MongoClient
 
 
-address = "gilvirgill.com"
+#address = "gilvirgill.com"
 
 checkerList = [" ","'"]
 
@@ -49,8 +49,8 @@ def hashWord( strIn ):
     
 def dbHandler( ):
     client = MongoClient('127.0.0.1')
-    db = client.threadtigers
-    cursor = db.users.find()
+    db = client.dataBase
+    cursor = db.Account.find()
     userNames = []
     passWords = []
     for document in cursor:

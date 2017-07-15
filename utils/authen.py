@@ -5,7 +5,7 @@ from os import path, remove
 from pymongo import MongoClient
 
 
-#address = "gilvirgill.com"
+address = "gilvirgill.com"
 
 checkerList = [" ","'"]
 
