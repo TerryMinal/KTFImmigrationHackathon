@@ -1,7 +1,7 @@
 <html>
 <head>
 <style>
-a:link, a:visited {
+a:link:not(.main), a:visited:not(.main) {
   background-color: white;
   border: none;
   color: #4d4d4d;
@@ -14,7 +14,24 @@ a:link, a:visited {
   font-family: Arial;
 }
 
-a:hover {
+.main {
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  color: #4d4d4d;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+a:hover:not(.main) {
+  background-color: #f2f2f2;
+}
+
+.main:hover {
   background-color: #f2f2f2;
 }
 
@@ -47,7 +64,7 @@ div.yellowLine {
 
 </head>
 <body>
-  <div class="header">PenPal.</div>
+  <a href="homePage.html" class="main">PenPal.</a>
   <a href="blog.html">Blog</a>
   <a href="chat.html">Chat</a>
   <a href="resources.html">Resources</a>
