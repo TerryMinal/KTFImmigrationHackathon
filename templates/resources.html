@@ -1,20 +1,33 @@
 <html>
 <head>
 <style>
-a.top:link, a.rop:visited {
-    background-color: white;
-    border: none;
-    color: #4d4d4d;
-    padding: 13px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    font-family: Arial;
-    float: right;
+a:link:not(.heading), a:visited:not(.heading) {
+  background-color: white;
+  border: none;
+  color: #4d4d4d;
+  padding: 13px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  font-family: Arial;
 }
 
-a.top:hover {
+.heading {
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  color: #4d4d4d;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+a.top:hover,a.heading:hover {
     background-color: #f2f2f2;
 }
 
@@ -27,14 +40,12 @@ div.header {
     top:13px;
     left: 15px;
 }
-
 div.yellowLine {
     background: #ffcc00;
     width: 100%;
     height: 7px;
     float: left;
 }
-
 a.options {
     position: absolute;
     top: 625px;
@@ -48,7 +59,6 @@ a.options {
     height: 55px;
     width: 360px;
 }
-
 #one {
     left: 8px;
 }
@@ -69,15 +79,15 @@ a.options:hover {
 </style>
 </head>
 <body>
-<div class="header">PenPal.</div>
+<div class="header">ImmiPals</div>
 <a href="blog.html" class="top">Blog</a>
 <a href="chat.html" class="top">Chat</a>
 <a href="resources.html" class="top">Resources</a>
 <div class="yellowLine"></div>
-<img style="position;absolute; TOP:60px; LEFT:0px; WIDTH:25%; HEIGHT:688px" SRC="language.jpg">
-<img style="position;absolute; TOP:60px; LEFT:338px; WIDTH:25%; HEIGHT:688px" SRC="community.jpg">
-<img style="position;absolute; TOP:60px; LEFT:690px; WIDTH:25%; HEIGHT:688px" SRC="opportunities.jpg">
-<img style="position;absolute; TOP:60px; LEFT:1035px; WIDTH:344; HEIGHT:688px" SRC="legal.jpg">
+<img style="position;absolute; TOP:60px; LEFT:0px; WIDTH:24.6%; HEIGHT:688px" SRC="language.jpg">
+<img style="position;absolute; TOP:60px; LEFT:338px; WIDTH:24.6%; HEIGHT:688px" SRC="community.jpg">
+<img style="position;absolute; TOP:60px; LEFT:690px; WIDTH:24.6%; HEIGHT:688px" SRC="opportunities.jpg">
+<img style="position;absolute; TOP:60px; LEFT:1035px; WIDTH:24.6%; HEIGHT:688px" SRC="legal.jpg">
 <a href="language.html" class="options" id="one">Language</a>
 <a href="community.html" class="options"id="two">Community</a>
 <a href="opportunities.html" class="options" id="four">Opportunities</a>

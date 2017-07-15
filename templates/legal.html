@@ -3,13 +3,10 @@
 
   <head>
     <title> Legal Resources </title>
-  
+
 
     <style>
 
-      #side {
-      float: right;
-      }
 
        #header2{
       position: absolute;
@@ -18,22 +15,39 @@
       font-size:30;
       font-family: helvetica;
       }
-      
-      a:link, a:visited {
+
+      a:link:not(.heading), a:visited:not(.heading) {
         background-color: white;
         border: none;
         color: #4d4d4d;
         padding: 13px 22px;
-        text-align: center; 
+        text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 18px;
         font-family: Arial;
-    }
+      }
 
-    a:hover {
+      #side {
+      float: right;
+      }
+
+      .heading {
+        font-weight: bold;
+        background-color: white;
+        border: none;
+        color: #4d4d4d;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        font-family: Arial;
+      }
+
+      a:hover {
         background-color: #f2f2f2;
-    }
+      }
 
     div.header {
         color: #4d4d4d;
@@ -65,20 +79,18 @@
     a:active {
     color: #b3ffff
     }
-    
-    
+
+
   </style>
 
   </head>
 
 
   <body link = #000000>
-      <div class="header">
-        PenPal.
-    </div>
-    <a href="blog.html" id = "side">Blog</a>
-    <a href="chat.html" id = "side">Chat</a>
-    <a href="resources.html" id = "side">Resources</a>
+    <a href="homePage.html" class="heading">ImmiPals</a>
+    <a href="blog.html" id="side">Blog</a>
+    <a href="chat.html" id="side">Chat</a>
+    <a href="resources.html" id="side">Resources</a>
     <div class="yellowLine"></div>
     <div class = "finding legal services"></div>
        <h2 id = "header2"> <font face="helvetica"; size=45; color="grey">FINDING LEGAL SERVICES </font></h2>
@@ -102,7 +114,7 @@
 
 	<tr>
 	  <td width = 500; height = 250; valign="top"; align = "center"; bgcolor = #f0f5f5>
-	    <font face = "helvetica"> 
+	    <font face = "helvetica">
 	      <p> <center><a href = "https://www.immigrationadvocates.org/nonprofit/legaldirectory/"> Visit Immigration Advocates </a></center> </p>
 	       <br><br>
 	    <p>Search for immigration legal services provided by state, county, or detention facility. Only nonprofit organizations that provide free or low-cost immigration legal services are included in this directory. </p>
@@ -128,7 +140,7 @@
       </table>
 
       <br>
-      
+
       <table align = center>
 	<tr>
 	  <th width = 500>  <font size = "20"; face="helvetica"; color = "#1f3d7a"> Immigration Advocates: Immigration Law Help Web Tool </font> </th>
@@ -150,15 +162,15 @@
 	       <br><br>
 	    <p> Enter your zip code to find the most convenient legal service provider for you. Spanish available here (http://iamerica.org/es/ayuda-legal) </p>
 	  </td>
-	  </font> 
+	  </font>
 	</tr>
       </table>
-    
+
     </div>
      <br><br>
-    
 
-    <div class = "numbers"> 
+
+    <div class = "numbers">
      <h1> <center> <font size = 45; face = "helvetica"; color = "grey"> NUMBERS YOU CAN CALL </font> </center> </h1>
 
      <table align = center>
@@ -186,14 +198,14 @@
 	 </td>
        </tr>
      </table>
-     
+
 
     </div>
     <br><br>
 
-    <div class = "knowYourRights"> 
+    <div class = "knowYourRights">
       <h1> <center> <font size = 45; face = "helvetica"; color = "grey">  WHEN STOPPED BY THE POLICE, IMMIGRATION AGENTS, OR THE FBI </font> </center> </h1>
-														
+
       <table align = center>
 	<tr>
 	  <th width = 500> <font size = "20"; face="helvetica"; color = "#1f3d7a";> American Civil Liberties Union </font></th>
@@ -209,12 +221,12 @@
 	  </td>
 	</tr>
       </table>
-      
 
-    </div> 
+
+    </div>
     <br><br>
 
-    <div class = "knowYourRightsLawEnforcement"> 
+    <div class = "knowYourRightsLawEnforcement">
       <h1> <center> <font size = 45; face = "helvetica"; color = "grey"> WHEN ENCOUNTERING LAW ENFORCEMENT </font> </center> </h1>
 
       <table align = center>
@@ -234,11 +246,11 @@
 	</tr>
       </table>
 
-      
+
     </div>
     <br><br>
 
-    <div class = "citizenship"> 
+    <div class = "citizenship">
     <h1> <center> <font size = 45; face = "helvetica"; color = "grey"> CITIZENSHIP </font> </center></h1>
     <table align = center>
       <tr>
@@ -250,11 +262,11 @@
 	<td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f>
 	   <font face = "helvetica">
 	  <p> <a href = "https://www.roadtostatus.com/why-rts/"> Road to Status </a> </p>
-	  <br><br>	  
+	  <br><br>
 	  <p> Road to Status is a software and services company that offers online tools and access to legal services through our network partner law firms. You can quickly check your eligibility for immigration benefits, prepare your paperwork, and/or schedule an initial consultation or paperwork review with a licensed network partner attorney. </p>
 	   </font>
 	</td>
-	
+
 	<td width = 500; height = 250; valign = "top"; align = "center"; bgcolor = #f0f5f>
 	   <font face = "helvetica">
 	  <p> <a href = "http://www1.cuny.edu/sites/citizenship-now/"> CUNY Citizenship Now </a> </p>
@@ -265,7 +277,7 @@
       </tr>
     </table>
     </div>
-    
+
     <br><br>
 
     <div class = "learnMore">
@@ -280,5 +292,3 @@
 
   </body>
 </html>
-
-

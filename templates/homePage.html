@@ -1,31 +1,34 @@
 <html>
 <head>
 <style>
-a:link, a:visited {
-    background-color: white;
-    border: none;
-    color: #4d4d4d;
-    padding: 13px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    float: right;
-    font-family: Arial;
+a:link:not(.main), a:visited:not(.main) {
+  background-color: white;
+  border: none;
+  color: #4d4d4d;
+  padding: 13px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  font-family: Arial;
 }
 
-a:hover {
-    background-color: #f2f2f2;
+.main {
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  color: #4d4d4d;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial;
 }
 
-div.header {
-    color: #4d4d4d;
-    font-weight: bold;
-    font-family: Arial;
-    font-size: 28px;
-    position: absolute;
-    top:13px;
-    left: 15px;
+a:hover:not(.main),.main:hover {
+  background-color: #f2f2f2;
 }
 
 div.yellowLine {
@@ -58,9 +61,7 @@ div.about {
 </style>
 </head>
 <body>
-<div class="header">
-    PenPal.
-</div>
+<a href="homePage.html" class="main">ImmiPals</a>
 <a href="blog.html">Blog</a>
 <a href="chat.html">Chat</a>
 <a href="resources.html">Resources</a>
