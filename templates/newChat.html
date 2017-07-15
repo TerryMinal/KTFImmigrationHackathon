@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <title> Chat Messages </title>
+    
+    <style>
+    a:link, a:visited {
+        background-color: white;
+        border: none;
+        color: #4d4d4d;
+        padding: 13px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        float: right;
+        font-family: Arial;
+    }
+
+    a:hover {
+        background-color: #f2f2f2;
+    }
+
+    div.header {
+        color: #4d4d4d;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 28px;
+        position: absolute;
+        top:13px;
+        left: 15px;
+    }
+
+    div.yellowLine {
+        background: #ffcc00;
+        width: 100%;
+        height: 7px;
+        float: left;
+    }
+    table {
+      border-spacing: 15px;
+      }
+
+     table#prevMessages {
+      position: absolute;
+      top: 5%;
+      left: 5%%;
+      }
+
+     table#newMessages {
+      position: absolute;
+      top: 5%;
+      left: 75%;
+      }
+
+     td#ageDropDown {
+      position: absolute;
+      top: 46%;
+      right: 45%;
+      }
+
+     td#locationDropDown {
+      position: absolute;
+      top: 64%;
+      right: 34%;
+      }
+
+     td#interestDropDown {
+      position: absolute;
+      top: 83%;
+      right: 39%;
+      }
+
+     a:link {
+      text-decoration: none;
+      }
+
+     a.button {
+      background-color: #193366;
+      font-size: 16px;
+      padding: 9px 13px; 
+      position: absolute;
+      top: 53%;
+      right: 9%;
+      color: white;
+      font-family: helvetica;
+     }
+      
+     body {
+      font-family: helvetica
+     }
+
+     div.convo {
+         font-size: 20;
+    }
+
+     div.chatbox {
+         border-style: solid;
+         font-family: helvetica;
+         font-size: 16;
+         background-color: #f2f2f2
+         border: #000000;
+         height: 400px;
+         width: 400px;
+         left: 50px;
+         border-width: 1px;
+         position: absolute;
+    }
+
+     div.message {
+        background-color: #cccccc;
+        font-color: 16;
+        font-family: helvetica;
+        height: 150px;
+        width: 373px;
+        left: 50px;
+        top: 450px;
+        position: absolute;
+        padding: 15px 15px;
+    }
+
+     select {
+         width: 100%;
+         padding: 16px 20px;
+         border: none;
+         border-radius:4px;
+         position: absolute;
+        }
+
+     div.bubble {
+        padding: 5px 5px;
+        border-radius: 8px;
+        position: absolute;
+    }
+     #one {
+         background-color: #ffcc00;
+         width: 120px;
+     }
+     #two {
+         background-color: #004080;
+         width: 250px;
+         left: 140px;
+         top:40px;
+         color: white;
+     }
+     #three {
+         background-color: #ffcc00;
+         width: 200px;
+         top: 100px;
+     }
+     
+    </style>
+  </head>
+  <body>
+  <div class="header">ImmiPal.</div>
+  <a href="blog.html">Blog</a>
+  <a href="chat.html">Chat</a>
+  <a href="resources.html">Resources</a>
+  <div class="yellowLine"></div>
+
+    <br><br><br><br>
+    <b>Messages with Erin.</b><br><br>
+  <div class="chatbox">
+  <div class="bubble" id="one">Hey! What's up?</div>
+  <div class="bubble" id="two">Can you tell me about fidget spinners?"</div>
+  <div class="bubble" id="three">Oh yea. It's kind of a crazy phase...</div>
+  </div>
+  <div class="message">Write message here...</div>
+
+</body>
+</html>
