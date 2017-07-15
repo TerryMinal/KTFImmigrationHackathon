@@ -3,46 +3,66 @@
   <head>
     <title> Language Resources </title>
     
-
     <style>
-    a:link, a:visited {
-        background-color: white;
-        border: none;
-        color: #4d4d4d;
-        padding: 13px 22px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 18px;
-        float: right;
-        font-family: Arial;
-    }
 
-    a:hover {
-        background-color: #f2f2f2;
-    }
+      #menu{
+      background-color:  #e6b800;
+      }
 
-    div.header {
-        color: #4d4d4d;
-        font-weight: bold;
-        font-family: Arial;
-        font-size: 28px;
-        position: absolute;
-        top:13px;
-        left: 15px;
-    }
+      #active{
+      background-color: #004080;
+      }
+      
+      a:link, a:visited {
+      background-color:  white;
+      border: none;
+      color: #4d4d4d;
+      padding: 13px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      float: right;
+      font-family: Arial;
+      }
 
-    div.yellowLine {
-        background: #ffcc00;
-        width: 100%;
-        height: 7px;
-        float: left;
-    }
+      a:hover {
+      background-color: #f2f2f2;
+      }
+
+      #header2{
+      position: absolute;
+      top: 5%;
+      font-size:30;
+      }
+      
+
+      div.header {
+      color: #4d4d4d;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 28px;
+      position: absolute;
+      top:13px;
+      left: 15px;
+      }
+
+      div.yellowLine {
+      background: #ffcc00;
+      width: 100%;
+      height: 7px;
+      float: left;
+      }
+      
       table {
       display: table;
       border-collapse: separate;
-      border-spacing: 20px;
-      align: center;
+      border-spacing: 30px;
+      position: absolute;
+      top: 40%; 
+      left: 25%;
+      text-align:center;
+      font-weight: bold;
       }
 
       a:hover {
@@ -55,78 +75,138 @@
       
       body {
       font-family: helvetica;
+      font-size: 20;
       }
-      
+
+      td {
+      align: center;
+      }
+
+      #header {
+      color:"grey";
+      font-family: "helvetica";
+      font-size = 100;
+      position: absolute;
+      top: 25%;
+      left: 24%;
+      }
+
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 13%;
+      left:1%;
+      background-color:  #e6b800
+      }
+
+      li a {
+      display: block;
+      color:  #e6b800
+      padding: 8px 16px;
+      text-decoration: none;
+      }
+
+      li a.active {
+      background-color: #004080; 
+      color: white;
+      }
+
+      li a:hover:not(.active) {
+      background-color: #e6b800
+      color: white;
+      }
     </style>
 
   </head>
   
   <body link = #000000>
-  <div class="header">
-    PenPal.
+    <h2 id = "header2"> Language Resources</h2>
+
+    <ul>
+      <li><a href="languageClasses.html" id = "menu">Classes</a></li> <br>
+      <li><a href="languageBooks" id = "active"> Books </a></li> <br>
+      <li><a href="languageMovies.html" id = "menu">Movies</a></li> <br> 
+      </ul>
+    </div>
+
+    <div class="header">
+      PenPal.
     </div>
     <a href="blog.html">Blog</a>
     <a href="chat.html">Chat</a>
     <a href="resources.html">Resources</a>
     <div class="yellowLine"></div>
-    <div class = "top 10 books"> 
-      <h1> <center> <font color = "grey" face = "helvetica" size = "45"> <a href = "http://www.fluentu.com/blog/english/easy-simple-english-books-read-beginners/"> TOP 10 BOOKS FOR ENGLISH BEGINNERS </a>  </font> </center> </h1>
-  <table align = center>
-    <tr>
-      <td height = 200; valign = vertical; align = center;> 
-	<p> 1. Charlotte’s Web – E.B. White </p> 
-      </td>
+    <div class = "top 10 books">
+      <h1 id = "header">  TOP 10 BOOKS FOR ENGLISH BEGINNERS </h1> 
+      <table align = center>
+	<tr align = center>
+	  <td height = 200; valign = vertical; align = center;> 
+	    <p> 1. Charlotte’s Web – E.B. White </p>
+	    <img src="web.jpg" style="width:300px;height:400px;">
+	  </td>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p>2. Mieko and the Fifth Treasure – Eleanor Coerr </p> 
-      </td>
-    </tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>2. Mieko and the Fifth Treasure – Eleanor Coerr </p>
+	    <img src = "mieko.jpg" style="width:300px;height:400px;"> 
+	  </td>
+	</tr>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>	
-	<p>3. The Outsiders – S.E. Hinton </p>
-      </td>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>	
+	    <p>3. The Outsiders – S.E. Hinton </p>
+	    <img src="outsiders.jpg" style="width:300px;height:400px;">
+	  </td>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p>4. The House On Mango Street – Sandra Cisneros </p>
-      </td>
-    </tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>4. The House On Mango Street – Sandra Cisneros </p>
+	    <img src="mango.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
-	<p>5. Thirteen Reasons Why – Jay Asher </p>
-      </td>
-      
-      <td height = 200; valign = vertical; align = center;>
-	<p>6. Peter Pan – J.M. Barrie) </p>
-      </td>
-    </tr>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>5. Thirteen Reasons Why – Jay Asher </p>
+	    <img src="thirteen.jpg" style="width:300px;height:400px;">
+	  </td>
+	  
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>6. Peter Pan – J.M. Barrie </p>
+	    <img src="pan.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
-	<p>7. The Old Man and the Sea <br>– Ernest Hemmingway </p>
-      </td>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>7. The Old Man and the Sea <br>– Ernest Hemmingway </p>
+	    <img src="oldman.jpg" style="width:300px;height:400px;">
+	  </td>
 
-      <td height = 200; valign = vertical; align = center;>
- 	<p>8. The Giver – Lois Lowry </p>
-      </td>
-    </tr>
+	  <td height = 200; valign = vertical; align = center;>
+ 	    <p>8. The Giver – Lois Lowry </p>
+	    <img src="thegiver.jpg" style="width:300px;height:400px;">
+	  </td>
+	</tr>
 
-    <tr>
-      <td height = 200; valign = vertical; align = center;>
- 	<p> 9. Number the Stars – Lois Lowry </p>
-      </td>
+	<tr>
+	  <td height = 200; valign = vertical; align = center;>
+ 	    <p> 9. Number the Stars – Lois Lowry </p>
+	    <img src="stars.jpg" style="width:300px;height:400px;"> 
+	  </td>
 
-      <td height = 200; valign = vertical; align = center;>
-	<p>10. A Wrinkle In Time – Madeline L’engle </p>
-      </td>
-      
-    </tr>
-  </table>
+	  <td height = 200; valign = vertical; align = center;>
+	    <p>10. A Wrinkle In Time – Madeline L’engle </p>
+	    <img src="time.jpg" style="width:300px;height:400px;"
+		 </td>
+	  
+	</tr>
+      </table>
 
 
-</div> 
+    </div>
 
-</body>
+    
+  </body>
 </html> 
-  
+
