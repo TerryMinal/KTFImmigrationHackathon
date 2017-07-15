@@ -1,7 +1,7 @@
 from bson.objectid import ObjectId
 from pymongo import MongoClient
 
-username = ''
+username = 'techteam'
 password = 'AGjllOpG5w'
 
 client = MongoClient('127.0.0.1') # edit later
@@ -25,3 +25,7 @@ def createPost(dictionary):
 #update a uers info based off a dictionary
 def updateUser(user, dict):
     db.Account.update_one({'_id' : ObjectId(user)}, {'$set' : {'_id' : dict}})
+
+def filterUser(dictionary):
+    db.Account.find(dictionary)
+    

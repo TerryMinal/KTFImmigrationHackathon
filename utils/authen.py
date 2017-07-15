@@ -4,6 +4,9 @@ import bridge
 from os import path, remove
 from pymongo import MongoClient
 
+
+address = "gilvirgill.com"
+
 checkerList = [" ","'"]
 
 def authenticate( requestForm, userNames, passWords ):
