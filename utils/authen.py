@@ -9,7 +9,7 @@ from pymongo import MongoClient
 
 checkerList = [" ","'"]
 
-def authenticate( requestForm, userNames, passWords ):
+def authenticate(checkBoxList, requestForm, userNames, passWords ):
 
     for i in checkerList:
         if( requestForm['username'].find(i) != -1 ):
@@ -26,7 +26,7 @@ def authenticate( requestForm, userNames, passWords ):
     else:
         return "Username Not Found"
 
-def register( requestForm, userNames, passWords ):
+def register( checkBoxList, requestForm, userNames, passWords ):
     '''
     for i in checkerList:
         if( str(requestForm['username']).find(i) != -1 ):
@@ -42,7 +42,7 @@ def register( requestForm, userNames, passWords ):
     else:
         #userNames.append( requestForm['user'] )
         #passWords.append( hashWord(requestForm['password']) )
-        return addToDB( requestForm['firstName'], requestForm['lastName'], requestForm['username'], hashWord(requestForm['password1']), requestForm['email'], requestForm['age'], requestForm['location'], requestForm['status'], requestForm['interests'])
+        return addToDB( requestForm['firstName'], requestForm['lastName'], requestForm['username'], hashWord(requestForm['password1']), requestForm['email'], requestForm['age'], requestForm['location'], requestForm['status'], checkBoxList)
 
 def hashWord( strIn ):
     return hashlib.sha256(strIn).hexdigest()
