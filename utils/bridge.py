@@ -1,8 +1,12 @@
 from bson.objectid import ObjectId
 from pymongo import MongoClient
 
-username = ''
+username = 'techteam'
 password = 'AGjllOpG5w'
+
+#url = 'gilvirgill.com/threadtigers'
+
+#uril = 'mongodb://'+username+':'+password+ '@'+ url
 
 client = MongoClient('127.0.0.1') # edit later
 
