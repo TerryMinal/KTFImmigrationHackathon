@@ -1,6 +1,103 @@
 <html>
-  <body>
+  <head>
+    <title> Legal Resources </title>
+  
+
+    <style>
+
+      #side {
+      float: right;
+      }
+
+       #header2{
+      position: absolute;
+      top: 12%;
+      left: 27%;
+      font-size:30;
+      font-family: helvetica;
+      }
+      
+      a:link, a:visited {
+        background-color: white;
+        border: none;
+        color: #4d4d4d;
+        padding: 13px 22px;
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: Arial;
+    }
+
+    a:hover {
+        background-color: #f2f2f2;
+    }
+
+    div.header {
+        color: #4d4d4d;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 28px;
+        position: absolute;
+        top:13px;
+        left: 15px;
+    }
+
+    div.yellowLine {
+        background: #ffcc00;
+        width: 100%;
+        height: 7px;
+        float: left;
+    }
+    table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 20px;
+    text-align: center;
+    }
+
+    a:hover {
+    color: #99ccff
+    }
+
+    a:active {
+    color: #b3ffff
+      }
+      
+    div.container {
+      width: 80%;
+      padding: 20px 20px;
+      }
     
+  </style>
+
+  </head>
+  
+  <body>
+     <div class="header">
+        PenPal.
+    </div>
+    <a href="blog.html" id = "side">Blog</a>
+    <a href="chat.html" id = "side">Chat</a>
+    <a href="resources.html" id = "side">Resources</a>
+    <div class="yellowLine"></div>
+    <div class = "finding legal services"></div>
+    <h2 id = "header2"> <font face="helvetica"; size=45; color="grey">FINDING COMMUNITY EVENTS </font></h2>
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="container">
     <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
     <script>
@@ -15,8 +112,7 @@
       
       $.ajax(settings).done(function (data) {
       console.log(data);
-      var content = "<h2>" + data.name.text + "</h2>" + data.description.html;
-      $("#eventbrite").append(content);
+      var content = "<h2>" +  data.name.text + "</h2>" + data.description.html; 
       });
       
     </script>
@@ -76,6 +172,7 @@
     </script>
 
     <div id = "eventbrite"></div>
+    </div>
     
   </body>
 </html>
