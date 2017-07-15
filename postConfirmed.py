@@ -104,3 +104,4 @@ def confirmPost():
                             <input type="submit" value="Return to Blog Home">
                             </form>
                             '''
+confirmPost()
