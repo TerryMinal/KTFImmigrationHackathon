@@ -13,13 +13,13 @@
       <input type="password" name="password2" placeholder="password"/>
       <input type="text" name="email" placeholder="email"/>
       Age:
-      <select>
+      <select name="age">
           <option value="<10">&lt; 10</option>
           <option value="10-12">10-12</option>
           <option value="13">13</option>
           <option value="14">14</option>
           <option value="15">15</option>
-          <option value="16>16</option>
+          <option value="16">16</option>
           <option value="17">17</option>
           <option value="18">18</option>
           <option value="19">19</option>
@@ -27,7 +27,7 @@
       </select>
       <br/><br/>
       Location:
-      <select>
+      <select name="location">
             <option value="Alabama">Alabama</option>
             <option value="Alaska">Alaska</option>
             <option value="Arizona">Arizona</option>
@@ -81,23 +81,21 @@
       </select>
       <br/><br/>
       Status:
-      <select>
+      <select name="status">
           <option value="immigrant">immigrant</option>
           <option value="native">native</option>
       </select>
       <br/><br/>
       Interests:
-      <form action="" method="get">
-          <input type="checkbox" name="interests" value="art">art
-          <input type="checkbox" name="interests" value="sports">sports
-          <input type="checkbox" name="interests" value="music">music
-          <input type="checkbox" name="interests" value="games">games
-          <input type="checkbox" name="interests" value="reading">reading<br>
-          <input type="checkbox" name="interests" value="cooking">cooking<br>
-          <input type="checkbox" name="interests" value="volunteering">volunteering<br>
-          <input type="checkbox" name="interests" value="traveling">traveling<br>
-          <input type="checkbox" name="interests" value="writing">writing<br>
-      </form>
+          <input type="checkbox" name="interests" value="art"/>art
+          <input type="checkbox" name="interests" value="sports"/>sports
+          <input type="checkbox" name="interests" value="music"/>music
+          <input type="checkbox" name="interests" value="games"/>games
+          <input type="checkbox" name="interests" value="reading"/>reading<br>
+          <input type="checkbox" name="interests" value="cooking"/>cooking<br>
+          <input type="checkbox" name="interests" value="volunteering"/>volunteering<br>
+          <input type="checkbox" name="interests" value="traveling"/>traveling<br>
+          <input type="checkbox" name="interests" value="writing"/>writing<br>
       <input type="hidden" name="account" value="Register"/>
       <button>Register</button>
       <p class="message"><a href="/login/">Log In Here.</a></p>
