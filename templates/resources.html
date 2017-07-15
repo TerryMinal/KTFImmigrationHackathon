@@ -1,7 +1,7 @@
 <html>
 <head>
 <style>
-a:link:not(.heading), a:visited:not(.heading) {
+a:not(.options), a:not(.heading) {
   background-color: white;
   border: none;
   color: #4d4d4d;
@@ -10,7 +10,7 @@ a:link:not(.heading), a:visited:not(.heading) {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  float: right;
+  float: left;
   font-family: Arial;
 }
 
@@ -25,6 +25,8 @@ a:link:not(.heading), a:visited:not(.heading) {
   display: inline-block;
   font-size: 30px;
   font-family: Arial;
+  float:left;
+  float: absolute;
 }
 
 a.top:hover,a.heading:hover {
@@ -46,13 +48,14 @@ div.yellowLine {
     height: 7px;
     float: left;
 }
+
 a.options {
     position: absolute;
     top: 625px;
     text-align: center;
     color: white;
     background-color: #004080;
-    float: left;
+    float: right;
     text-decoration: none;
     font-family: helvetica;
     font-size: 40px;
@@ -79,10 +82,10 @@ a.options:hover {
 </style>
 </head>
 <body>
-<div class="header">ImmiPals</div>
-<a href="blog.html" class="top">Blog</a>
-<a href="chat.html" class="top">Chat</a>
-<a href="resources.html" class="top">Resources</a>
+<a href="homePage.html" class="heading">ImmiPals</a>
+<a href="blog.html">Blog</a>
+<a href="chat.html">Chat</a>
+<a href="resources.html">Resources</a>
 <div class="yellowLine"></div>
 <img style="position;absolute; TOP:60px; LEFT:0px; WIDTH:24.6%; HEIGHT:688px" SRC="language.jpg">
 <img style="position;absolute; TOP:60px; LEFT:338px; WIDTH:24.6%; HEIGHT:688px" SRC="community.jpg">
