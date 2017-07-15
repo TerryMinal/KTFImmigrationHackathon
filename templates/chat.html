@@ -1,0 +1,236 @@
+<html>
+  <head>
+    <title> Chat Messages </title>
+    
+    <style>
+    a:link, a:visited {
+        background-color: white;
+        border: none;
+        color: #4d4d4d;
+        padding: 13px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        float: right;
+        font-family: Arial;
+    }
+
+    a:hover {
+        background-color: #f2f2f2;
+    }
+
+    div.header {
+        color: #4d4d4d;
+        font-weight: bold;
+        font-family: Arial;
+        font-size: 28px;
+        position: absolute;
+        top:13px;
+        left: 15px;
+    }
+
+    div.yellowLine {
+        background: #ffcc00;
+        width: 100%;
+        height: 7px;
+        float: left;
+    }
+      table {
+      border-spacing: 15px;
+      }
+
+      table#prevMessages {
+      position: absolute;
+      top: 5%;
+      left: 5%%;
+      }
+      
+      table#newMessages {
+      position: absolute;
+      top: 5%;
+      left: 75%;
+      }
+
+      td#ageDropDown {
+      position: absolute;
+      top: 46%;
+      right: 45%;
+      }
+
+      td#locationDropDown {
+      position: absolute;
+      top: 64%;
+      right: 34%;
+      }
+
+      td#interestDropDown {
+      position: absolute;
+      top: 83%;
+      right: 39%;
+      }
+
+      a:link {
+      text-decoration: none;
+      }
+
+      a.button {
+      background-color: #193366;
+      font-size: 24px;
+      padding: 30px 20px; 
+      position: absolute;
+      top: 53%;
+      right: 9%;
+      color: white;
+      font-family: helvetica;
+      }
+      
+      
+
+      body {
+      font-family: helvetica
+      }
+
+      
+      
+    </style>
+  </head>
+  <body>
+  <div class="header">
+    PenPal.
+    </div>
+    <a href="blog.html">Blog</a>
+    <a href="chat.html">Chat</a>
+    <a href="resources.html">Resources</a>
+    <div class="yellowLine"></div>
+    <br><br>
+
+    
+
+    <table id = "prevMessages">
+      <tr align = left>
+	<th> <font size = 40> Previous Chats </font> </th>
+      </tr>
+
+      <tr align = left>
+	<th width = 200; > With User: </th>
+	<th width = 400;> Message Title: </th>
+	<th width = 500;> Last Updated: </th>
+      </tr>
+
+      <tr align = left>
+	<td> DummyUser </td>
+	<td> DummyMessage ahahahahahahahaha </td>
+	<td> DummyDate </td>
+      </tr> 
+    </table>
+
+    <table id = "newMessages">
+      <tr align = right>
+	<th> <font size = 40>  New Message </font> </th>
+      </tr>
+
+      <tr>
+	
+	<td> Age: </td>
+	<td id = "ageDropDown"> <select>
+	  <option value="<10"> Under 10 </option>
+	  <option value="10-12"> 10 to 12</option>
+	  <option value="13"> 13 </option>
+	  <option value="14"> 14 </option>
+	  <option value="15"> 15 </option>
+	  <option value="16"> 16 </option>
+	  <option value="17"> 17 </option>
+	  <option value="18"> 18 </option>
+	  <option value="19"> 19 </option>
+	  <option value="20"> 20 </option>
+	</select> </td>
+      </tr>
+
+      <tr>
+	<td width = 5> Location: </td>
+	<td id = "locationDropDown"> <select>
+	     <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Delaware">Delaware</option>
+            <option value="Florida">Florida</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Idaho">Idaho</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Kansas">Kansas</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Maine">Maine</option>
+            <option value="Maryland">Maryland</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="Mississippi">Mississippi</option>
+            <option value="Missouri">Missouri</option>
+            <option value="Montana">Montana</option>
+            <option value="Nebraska">Nebraska</option>
+            <option value="Nevada">Nevada</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="New York">New York</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="North Dakota">North Dakota</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Rhode Island">Rhode Island</option>
+            <option value="South Carolina">South Carolina</option>
+            <option value="South Dakota">South Dakota</option>
+            <option value="Tennessee">Tennessee</option>
+            <option value="Texas">Texas</option>
+            <option value="Utah">Utah</option>
+            <option value="Vermont">Vermont</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>
+            <option value="Wisconsin">Wisconsin</option>
+             <option value="Wyoming">Wyoming</option>
+	  </select>
+	</td>
+      </tr>
+
+      <tr>
+	<td width = 5> Interests </td>
+	<td id="interestDropDown">
+	  <form action = "/action_page.php" method = "get"> 
+	  <input type="checkbox" name="interests" value="art"/>art <br>
+          <input type="checkbox" name="interests" value="sports"/>sports <br>
+          <input type="checkbox" name="interests" value="music"/>music <br>
+          <input type="checkbox" name="interests" value="games"/>games <br> 
+          <input type="checkbox" name="interests" value="reading"/>reading<br>
+          <input type="checkbox" name="interests" value="cooking"/>cooking<br>
+          <input type="checkbox" name="interests" value="volunteering"/>volunteering<br>
+          <input type="checkbox" name="interests" value="traveling"/>traveling<br>
+          <input type="checkbox" name="interests" value="writing"/>writing<br>
+	  </form>
+	</td>
+	</tr>
+	    
+	    
+    </table>
+	
+
+
+   <a href = "newChat.html" class = "button"> CREATE </a> 
+    
+
+  </body>
+</html>
+
+
+      
