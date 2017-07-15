@@ -85,7 +85,7 @@ div.yellowLine {
 
             <div class="panel-body">
               <div class="">
-                <textarea name="content" id="content" cols="40" rows="10"  class="form-control message" style="height: 100px; width:450px; overflow: hidden;" placeholder="What's on your mind?"></textarea>
+                <textarea id="mainText" name="content" cols="40" rows="10"  class="form-control message" style="height: 100px; width:450px; overflow: hidden;" placeholder="What's on your mind?"></textarea>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ div.yellowLine {
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group">
-                    <input type="submit" name="submit" value="Post"   id="v" name="submit" class="post_button  btn btn-primary submit">
+                    <input id="submitBtn" onclick="submitClick()" type="submit" name="submit" value="Post" name="submit" class="post_button  btn btn-primary submit">
                   </div>
                 </div>
               </div>
@@ -103,7 +103,6 @@ div.yellowLine {
         </div>
       </div>
     </form>
-
   </div>
 
 
@@ -113,6 +112,24 @@ div.yellowLine {
 
 </div>
 </div>
+
+<h1 id="post">
+
+</h1>
+
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"> </script>
+<script>
+const config = {
+  apiKey: "AIzaSyAAYBhLeiyS8PtsGG4rbNKBDFqJ2KCxc-w",
+  authDomain: "teamktf-6b7f8.firebaseapp.com",
+  databaseURL: "https://teamktf-6b7f8.firebaseio.com",
+  projectId: "teamktf-6b7f8",
+  storageBucket: "teamktf-6b7f8.appspot.com",
+  messagingSenderId: "1001813458510"
+};
+firebase.initializeApp(config);
+</script>
+<script src="index.js"></script>
 
 </body>
 </html>
