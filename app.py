@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, session, request, render_template
-from utils import authen, bridge
+from utils import bridge
 
 app = Flask(__name__)
 app.secret_key = "lol"

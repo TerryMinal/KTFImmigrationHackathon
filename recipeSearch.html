@@ -1,0 +1,57 @@
+<html>
+  <head>
+      <title>Recipe Generator</title>
+      <style>
+      body {font-family: "Trebuchet MS", Helvetica, sans-serif;}
+      div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.8;
+        filter: alpha(opacity=60);
+      }
+      html { 
+        background: url(foodBack3.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      div.buttons{
+      display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get" action="http://marge.stuy.edu/~grace.cuenca/FinalProject/food.py">
+    <div class="transbox">
+      <center><h1>Recipe Generator</h1></center>
+      <center><h4>Ready to use my machine? Great!! First, answer these questions so it can generate the perfect recipe for you!</h4></center>
+      <center><p>NOTE: feeling overwhelmed?? You don't have to fill every question out :)</p></center>
+      <br>
+      What are you eating it for?<br>
+        <input type="radio" name="time" value="Breakfast">Breakfast<br>
+        <input type="radio" name="time" value="Lunch">Lunch<br>
+        <input type="radio" name="time" value="Dinner">Dinner<br><br><br>
+      Type one ingredient you want in the food: <input type="text" name="ingredient"><br><br><br>
+      What flavor(s) do you want?<br>
+        <input type="checkbox" name="flavor" value="Sweet">Sweet<br>
+        <input type="checkbox" name="flavor" value="Salty">Salty<br>
+        <input type="checkbox" name="flavor" value="Sour">Sour<br>
+        <input type="checkbox" name="flavor" value="Spicy">Spicy<br>
+        <input type="checkbox" name="flavor" value="Savory">Savory<br>
+        <input type="checkbox" name="flavor" value="Bitter">Bitter<br><br> <br>
+      Is it a dessert or nah?<br>
+        <input type="radio" name="isdessert" value="nah">Nah<br>
+        <input type="radio" name="isdessert" value="yah">Yah<br><br><br>
+      <input type="submit" value="Up up and away!"><br><br><br>
+      <div align="right">
+      <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
+      <form action="http://marge.stuy.edu/~grace.cuenca/FinalProject/foodHome.html">
+        <input type="submit" value="Home">
+      </form>
+        </div>
+    </div>
+    </form>
+  </body>
+</html>
