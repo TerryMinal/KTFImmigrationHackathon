@@ -38,7 +38,9 @@ def authenticate():
     data = authen.dbHandler()
     userNames = data['usernames']
     passWords = data['passwords']
+    checkBoxList = request.form.getlist("interests")
     print request.form
+    print checkBoxList
     if request.form['account'] == 'Login':
         val = authen.authenticate(request.form, userNames, passWords )
         if val == True :
@@ -47,7 +49,7 @@ def authenticate():
         else:
             return redirect(url_for('login', message = val))
     elif request.form['account'] == 'Register':
-        val = authen.register(request.form, userNames, passWords)
+        val = authen.register(checkBoxList, request.form, userNames, passWords)
         if val == True :
             return redirect(url_for('login', message = "Registration Successful", ))
         else:
@@ -58,6 +60,10 @@ def authenticate():
 @app.route("/home/")
 def home():
     return render_template("home.html")
+
+#@app.route("/blogs")
+#def blogs():
+#    return render_template(blog
 
 if __name__ == "__main__":
     app.debug = True
