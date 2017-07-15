@@ -4,10 +4,6 @@ from pymongo import MongoClient
 username = 'techteam'
 password = 'AGjllOpG5w'
 
-#url = 'gilvirgill.com/threadtigers'
-
-#uril = 'mongodb://'+username+':'+password+ '@'+ url
-
 client = MongoClient('127.0.0.1') # edit later
 
 db = client.dataBase
@@ -29,3 +25,7 @@ def createPost(dictionary):
 #update a uers info based off a dictionary
 def updateUser(user, dict):
     db.Account.update_one({'_id' : ObjectId(user)}, {'$set' : {'_id' : dict}})
+
+def filterUser(dictionary):
+    db.Account.find(dictionary)
+    
