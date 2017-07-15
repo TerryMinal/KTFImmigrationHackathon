@@ -26,4 +26,4 @@ def createUser(dictionary):
 
 #update a uers info based off a dictionary
 def updateUser(user, dict):
-    db.users.update_one({'_id' : ObjectId(user)}, {'$set' : {'_id' : dict}})
+    db.users.update_one({'_id' : ObjectId(user)}, {'$set' : {'_id' : dict}
